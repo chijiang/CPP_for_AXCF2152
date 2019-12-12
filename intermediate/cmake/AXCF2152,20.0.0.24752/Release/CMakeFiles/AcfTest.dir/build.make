@@ -57,9 +57,61 @@ include CMakeFiles/AcfTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AcfTest.dir/flags.make
 
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o: CMakeFiles/AcfTest.dir/flags.make
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o: ../../../code/AcfTestComponent.meta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponent.meta.cpp
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.i"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponent.meta.cpp > CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.i
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.s"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponent.meta.cpp -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.s
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o: CMakeFiles/AcfTest.dir/flags.make
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o: ../../../code/AcfTestComponentProgramProvider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponentProgramProvider.cpp
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.i"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponentProgramProvider.cpp > CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.i
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.s"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponentProgramProvider.cpp -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.s
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o: CMakeFiles/AcfTest.dir/flags.make
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o: ../../../code/AcfTestLibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.cpp
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.i"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.cpp > CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.i
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.s"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.cpp -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.s
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o: CMakeFiles/AcfTest.dir/flags.make
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o: ../../../code/AcfTestLibrary.meta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.meta.cpp
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.i"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.meta.cpp > CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.i
+
+CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.s"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.meta.cpp -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.s
+
 CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o: CMakeFiles/AcfTest.dir/flags.make
 CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o: ../../../../src/AcfTestComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o"
 	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o -c /home/chijiang/projects/AcfTest/src/AcfTestComponent.cpp
 
 CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.i: cmake_force
@@ -72,7 +124,7 @@ CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.s: cmake_force
 
 CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o: CMakeFiles/AcfTest.dir/flags.make
 CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o: ../../../../src/AcfTestProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o"
 	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o -c /home/chijiang/projects/AcfTest/src/AcfTestProgram.cpp
 
 CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.i: cmake_force
@@ -83,16 +135,39 @@ CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.s"
 	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/src/AcfTestProgram.cpp -o CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.s
 
+CMakeFiles/AcfTest.dir/src/testprog.cpp.o: CMakeFiles/AcfTest.dir/flags.make
+CMakeFiles/AcfTest.dir/src/testprog.cpp.o: ../../../../src/testprog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AcfTest.dir/src/testprog.cpp.o"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AcfTest.dir/src/testprog.cpp.o -c /home/chijiang/projects/AcfTest/src/testprog.cpp
+
+CMakeFiles/AcfTest.dir/src/testprog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AcfTest.dir/src/testprog.cpp.i"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chijiang/projects/AcfTest/src/testprog.cpp > CMakeFiles/AcfTest.dir/src/testprog.cpp.i
+
+CMakeFiles/AcfTest.dir/src/testprog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AcfTest.dir/src/testprog.cpp.s"
+	/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chijiang/projects/AcfTest/src/testprog.cpp -o CMakeFiles/AcfTest.dir/src/testprog.cpp.s
+
 # Object files for target AcfTest
 AcfTest_OBJECTS = \
+"CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o" \
+"CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o" \
+"CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o" \
+"CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o" \
 "CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o" \
-"CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o"
+"CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o" \
+"CMakeFiles/AcfTest.dir/src/testprog.cpp.o"
 
 # External object files for target AcfTest
 AcfTest_EXTERNAL_OBJECTS =
 
+libAcfTest.so: CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o
+libAcfTest.so: CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o
+libAcfTest.so: CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o
+libAcfTest.so: CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o
 libAcfTest.so: CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o
 libAcfTest.so: CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o
+libAcfTest.so: CMakeFiles/AcfTest.dir/src/testprog.cpp.o
 libAcfTest.so: CMakeFiles/AcfTest.dir/build.make
 libAcfTest.so: /opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Acf.so
 libAcfTest.so: /opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.so
@@ -122,7 +197,7 @@ libAcfTest.so: /opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux
 libAcfTest.so: /opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.TraceController.so
 libAcfTest.so: /opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Hardware.Nim.so
 libAcfTest.so: CMakeFiles/AcfTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libAcfTest.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libAcfTest.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AcfTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,87 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ACF project for AXC F 2152 2020.0",
+            "type": "shell",
+            "options":{
+                "cwd": "${workspaceFolder}/tools",
+                "env": {
+                    "SDKROOT": "/opt/pxc/sdk/AXCF2152/2020.0",
+                    "ARP_DEVICE": "AXCF2152",
+                    "ARP_DEVICE_VERSION": "2020.0 LTS (20.0.0.24752)"
+                 }
+            },
+            "command": "./build_ACF_project.sh -t \"${SDKROOT}\" -a \"${ARP_DEVICE_VERSION}\" -n \"${ARP_DEVICE}\"",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+
+        {
+            "label": "PLCnext  -> Login",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+                "env": {
+                    "PLC_OPERATION": "login",
+                }
+            },
+            "command": "./PLC_Control.sh -s \"${PLC_OPERATION}\"",
+            "problemMatcher": []
+        },
+
+        {
+            "label": "PLCnext  -> START",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+                "env": {
+                    "PLC_OPERATION": "start",
+                }
+            },
+            "command": "./PLC_Control.sh -s \"${PLC_OPERATION}\"",
+            "problemMatcher": []
+        },
+
+        {
+            "label": "PLCnext  -> STOP",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+                "env": {
+                    "PLC_OPERATION": "stop",
+                }
+            },
+            "command": "./PLC_Control.sh -s \"${PLC_OPERATION}\"",
+            "problemMatcher": []
+        },
+
+        {
+            "label": "PLCnext  -> View SysLog",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+                "env": {
+                    "PLC_OPERATION": "syslog",
+                }
+            },
+            "command": "./PLC_Control.sh -s \"${PLC_OPERATION}\"",
+            "problemMatcher": []
+        },
+
+        {
+            "label": "PLCnext  -> Download Test Program and Run",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+            },
+            "command": "./testprogram.sh",
+            "problemMatcher": []
+        },
+    ]
+}

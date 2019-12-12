@@ -18,6 +18,15 @@ echo "Version:${VERSION}"
 # Get the directory of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+echo ">>>>>> The directory: $DIR <<<<<<<<<<"
+echo "-DARP_TOOLCHAIN_ROOT=${TOOLCHAIN}"
+echo "-DARP_DEVICE=${TARGETNAME}"
+echo "-DARP_DEVICE_VERSION=${ARPVERSION}"
+echo "-DCMAKE_TOOLCHAIN_FILE=${TOOLCHAIN}/toolchain.cmake"
+echo "-S \"${DIR}/../.\""
+echo "-B \"${DIR}/../build/${TARGETNAME}_${VERSION}\""
+echo "<<<<<<<<<<>>>>>>>>>>><<<<<<<<<<<>>>>>>>>>>>"
+
 echo CMAKE Configure
 cmake --configure -G "Ninja" \
 -DBUILD_TESTING=OFF \

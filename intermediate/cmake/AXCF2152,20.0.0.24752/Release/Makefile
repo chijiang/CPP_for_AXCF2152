@@ -170,6 +170,114 @@ AcfTest/fast:
 	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/build
 .PHONY : AcfTest/fast
 
+intermediate/code/AcfTestComponent.meta.o: intermediate/code/AcfTestComponent.meta.cpp.o
+
+.PHONY : intermediate/code/AcfTestComponent.meta.o
+
+# target to build an object file
+intermediate/code/AcfTestComponent.meta.cpp.o:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o
+.PHONY : intermediate/code/AcfTestComponent.meta.cpp.o
+
+intermediate/code/AcfTestComponent.meta.i: intermediate/code/AcfTestComponent.meta.cpp.i
+
+.PHONY : intermediate/code/AcfTestComponent.meta.i
+
+# target to preprocess a source file
+intermediate/code/AcfTestComponent.meta.cpp.i:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.i
+.PHONY : intermediate/code/AcfTestComponent.meta.cpp.i
+
+intermediate/code/AcfTestComponent.meta.s: intermediate/code/AcfTestComponent.meta.cpp.s
+
+.PHONY : intermediate/code/AcfTestComponent.meta.s
+
+# target to generate assembly for a file
+intermediate/code/AcfTestComponent.meta.cpp.s:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.s
+.PHONY : intermediate/code/AcfTestComponent.meta.cpp.s
+
+intermediate/code/AcfTestComponentProgramProvider.o: intermediate/code/AcfTestComponentProgramProvider.cpp.o
+
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.o
+
+# target to build an object file
+intermediate/code/AcfTestComponentProgramProvider.cpp.o:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.cpp.o
+
+intermediate/code/AcfTestComponentProgramProvider.i: intermediate/code/AcfTestComponentProgramProvider.cpp.i
+
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.i
+
+# target to preprocess a source file
+intermediate/code/AcfTestComponentProgramProvider.cpp.i:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.i
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.cpp.i
+
+intermediate/code/AcfTestComponentProgramProvider.s: intermediate/code/AcfTestComponentProgramProvider.cpp.s
+
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.s
+
+# target to generate assembly for a file
+intermediate/code/AcfTestComponentProgramProvider.cpp.s:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.s
+.PHONY : intermediate/code/AcfTestComponentProgramProvider.cpp.s
+
+intermediate/code/AcfTestLibrary.o: intermediate/code/AcfTestLibrary.cpp.o
+
+.PHONY : intermediate/code/AcfTestLibrary.o
+
+# target to build an object file
+intermediate/code/AcfTestLibrary.cpp.o:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o
+.PHONY : intermediate/code/AcfTestLibrary.cpp.o
+
+intermediate/code/AcfTestLibrary.i: intermediate/code/AcfTestLibrary.cpp.i
+
+.PHONY : intermediate/code/AcfTestLibrary.i
+
+# target to preprocess a source file
+intermediate/code/AcfTestLibrary.cpp.i:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.i
+.PHONY : intermediate/code/AcfTestLibrary.cpp.i
+
+intermediate/code/AcfTestLibrary.s: intermediate/code/AcfTestLibrary.cpp.s
+
+.PHONY : intermediate/code/AcfTestLibrary.s
+
+# target to generate assembly for a file
+intermediate/code/AcfTestLibrary.cpp.s:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.s
+.PHONY : intermediate/code/AcfTestLibrary.cpp.s
+
+intermediate/code/AcfTestLibrary.meta.o: intermediate/code/AcfTestLibrary.meta.cpp.o
+
+.PHONY : intermediate/code/AcfTestLibrary.meta.o
+
+# target to build an object file
+intermediate/code/AcfTestLibrary.meta.cpp.o:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o
+.PHONY : intermediate/code/AcfTestLibrary.meta.cpp.o
+
+intermediate/code/AcfTestLibrary.meta.i: intermediate/code/AcfTestLibrary.meta.cpp.i
+
+.PHONY : intermediate/code/AcfTestLibrary.meta.i
+
+# target to preprocess a source file
+intermediate/code/AcfTestLibrary.meta.cpp.i:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.i
+.PHONY : intermediate/code/AcfTestLibrary.meta.cpp.i
+
+intermediate/code/AcfTestLibrary.meta.s: intermediate/code/AcfTestLibrary.meta.cpp.s
+
+.PHONY : intermediate/code/AcfTestLibrary.meta.s
+
+# target to generate assembly for a file
+intermediate/code/AcfTestLibrary.meta.cpp.s:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.s
+.PHONY : intermediate/code/AcfTestLibrary.meta.cpp.s
+
 src/AcfTestComponent.o: src/AcfTestComponent.cpp.o
 
 .PHONY : src/AcfTestComponent.o
@@ -224,6 +332,33 @@ src/AcfTestProgram.cpp.s:
 	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.s
 .PHONY : src/AcfTestProgram.cpp.s
 
+src/testprog.o: src/testprog.cpp.o
+
+.PHONY : src/testprog.o
+
+# target to build an object file
+src/testprog.cpp.o:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/src/testprog.cpp.o
+.PHONY : src/testprog.cpp.o
+
+src/testprog.i: src/testprog.cpp.i
+
+.PHONY : src/testprog.i
+
+# target to preprocess a source file
+src/testprog.cpp.i:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/src/testprog.cpp.i
+.PHONY : src/testprog.cpp.i
+
+src/testprog.s: src/testprog.cpp.s
+
+.PHONY : src/testprog.s
+
+# target to generate assembly for a file
+src/testprog.cpp.s:
+	$(MAKE) -f CMakeFiles/AcfTest.dir/build.make CMakeFiles/AcfTest.dir/src/testprog.cpp.s
+.PHONY : src/testprog.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,12 +372,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
+	@echo "... intermediate/code/AcfTestComponent.meta.o"
+	@echo "... intermediate/code/AcfTestComponent.meta.i"
+	@echo "... intermediate/code/AcfTestComponent.meta.s"
+	@echo "... intermediate/code/AcfTestComponentProgramProvider.o"
+	@echo "... intermediate/code/AcfTestComponentProgramProvider.i"
+	@echo "... intermediate/code/AcfTestComponentProgramProvider.s"
+	@echo "... intermediate/code/AcfTestLibrary.o"
+	@echo "... intermediate/code/AcfTestLibrary.i"
+	@echo "... intermediate/code/AcfTestLibrary.s"
+	@echo "... intermediate/code/AcfTestLibrary.meta.o"
+	@echo "... intermediate/code/AcfTestLibrary.meta.i"
+	@echo "... intermediate/code/AcfTestLibrary.meta.s"
 	@echo "... src/AcfTestComponent.o"
 	@echo "... src/AcfTestComponent.i"
 	@echo "... src/AcfTestComponent.s"
 	@echo "... src/AcfTestProgram.o"
 	@echo "... src/AcfTestProgram.i"
 	@echo "... src/AcfTestProgram.s"
+	@echo "... src/testprog.o"
+	@echo "... src/testprog.i"
+	@echo "... src/testprog.s"
 .PHONY : help
 
 
