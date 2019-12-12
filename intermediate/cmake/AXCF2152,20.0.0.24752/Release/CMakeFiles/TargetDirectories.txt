@@ -1,0 +1,7 @@
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/install/strip.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/install/local.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/AcfTest.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/install.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/edit_cache.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/rebuild_cache.dir
+/home/chijiang/projects/AcfTest/intermediate/cmake/AXCF2152,20.0.0.24752/Release/CMakeFiles/list_install_components.dir
