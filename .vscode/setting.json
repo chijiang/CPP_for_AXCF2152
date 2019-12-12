@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "files.associations": {
+        "cstddef": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "typeinfo": "cpp"
+    }
+}
