@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__AcfTest
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/chijiang/cmake-3.15.5-Linux-x86_64/bin/cmake -S/home/chijiang/projects/ArfTest -B/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752
+  command = /home/chijiang/cmake-3.15.5-Linux-x86_64/bin/cmake -S/home/chijiang/projects/AcfTest -B/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752
   description = Re-running CMake...
   generator = 1
 

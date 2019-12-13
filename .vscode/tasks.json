@@ -83,5 +83,24 @@
             "command": "./testprogram.sh",
             "problemMatcher": []
         },
+
+        {
+            "label": "PLCnext  -> View AppLog",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+            },
+            "command": "./applog.sh ",
+            "problemMatcher": []
+        },
+        {
+            "label": "Download ACFprogram and START",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/tools",
+            },
+            "command": "./AutoDownload.sh ",
+            "problemMatcher": []
+        },
     ]
 }

@@ -14,7 +14,7 @@ set (WILDCARD_SOURCE *.cpp)
 set (WILDCARD_HEADER *.h *.hpp *.hxx)
 
 file(GLOB_RECURSE Headers src/${WILDCARD_HEADER} inc/${WILDCARD_HEADER} intermediate/code/${WILDCARD_HEADER})
-file(GLOB_RECURSE Sources src/${WILDCARD_SOURCE} intermediate/code/${WILDCARD_SOURCE})
+file(GLOB_RECURSE Sources src/${WILDCARD_SOURCE} inc/${WILDCARD_SOURCE} intermediate/code/${WILDCARD_SOURCE})
 add_executable(${Project_Name} ${Headers} ${Sources})
 
 #######################################################################################

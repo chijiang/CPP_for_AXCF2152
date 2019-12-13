@@ -1,8 +1,8 @@
-# Install script for directory: /home/chijiang/projects/ArfTest
+# Install script for directory: /home/chijiang/projects/AcfTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/chijiang/projects/ArfTest/tools/../deploy/")
+  set(CMAKE_INSTALL_PREFIX "/home/chijiang/projects/AcfTest/tools/../deploy/")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_20.0.0.24752/Release/bin/AcfTest"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/AXCF2152_20.0.0.24752/Release/bin" TYPE EXECUTABLE FILES "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/AcfTest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/AXCF2152_20.0.0.24752/Release/bin" TYPE EXECUTABLE FILES "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/AcfTest")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_20.0.0.24752/Release/bin/AcfTest" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_20.0.0.24752/Release/bin/AcfTest")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

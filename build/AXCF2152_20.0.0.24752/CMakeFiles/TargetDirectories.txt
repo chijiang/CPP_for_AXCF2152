@@ -1,7 +1,7 @@
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install/strip.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install/local.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/AcfTest.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/edit_cache.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/rebuild_cache.dir
-/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/list_install_components.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install/strip.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install/local.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/AcfTest.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/install.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/edit_cache.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/rebuild_cache.dir
+/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/list_install_components.dir
