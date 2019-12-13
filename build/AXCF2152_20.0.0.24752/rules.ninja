@@ -30,11 +30,11 @@ rule CXX_COMPILER__AcfTest
 
 
 #############################################
-# Rule for linking CXX shared library.
+# Rule for linking CXX executable.
 
-rule CXX_SHARED_LIBRARY_LINKER__AcfTest
-  command = $PRE_LINK && /opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
-  description = Linking CXX shared library $TARGET_FILE
+rule CXX_EXECUTABLE_LINKER__AcfTest
+  command = $PRE_LINK && /opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  $FLAGS  -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
 
@@ -42,17 +42,8 @@ rule CXX_SHARED_LIBRARY_LINKER__AcfTest
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/chijiang/cmake-3.15.5-Linux-x86_64/bin/cmake -S/home/chijiang/projects/AcfTest -B/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752
+  command = /home/chijiang/cmake-3.15.5-Linux-x86_64/bin/cmake -S/home/chijiang/projects/ArfTest -B/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752
   description = Re-running CMake...
-  generator = 1
-
-
-#############################################
-# Rule for re-checking globbed directories.
-
-rule VERIFY_GLOBS
-  command = /home/chijiang/cmake-3.15.5-Linux-x86_64/bin/cmake -P /home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/VerifyGlobs.cmake
-  description = Re-checking globbed directories...
   generator = 1
 
 

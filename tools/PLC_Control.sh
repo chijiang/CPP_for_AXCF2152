@@ -55,7 +55,6 @@ case "$PLC_OPERATION" in
         sshpass -p "$PLC_PASS" ssh $PLC_USRNAME@$PLC_IP "echo $PLC_PASS | sudo -S  recover-plcnext 1"
         ;;
     #// Factory reset the PLC
-    #重置PLC（恢复出厂状态）
     "FactoryReset")
         echo "PLCnext is going to reset to Factory state!"
         echo "You have 10 seconds to CANCEL by pressing \"CTRL + C \""

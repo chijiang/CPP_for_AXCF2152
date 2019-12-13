@@ -1,12 +1,10 @@
 # ninja log v5
-0	48	0	/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/cmake.verify_globs	f21c44a55d10b738
-1	3036	1576131104	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o	8dde13ba37e6ec56
-9	3707	1576131105	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o	33beb72c87cb4aee
-3	4498	1576131106	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o	15500ce25cba00c4
-4	4760	1576131106	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o	7406ded9e99da2ca
-4499	4962	1576131106	CMakeFiles/AcfTest.dir/src/testprog.cpp.o	a66f4d78b2636dfe
-3051	5815	1576131107	CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o	82826698b9ee3e62
-3708	6067	1576131107	CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o	9897e754598062f8
-6067	6301	1576131107	libAcfTest.so	6e246ff46f56f48f
-1	45	0	/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752/CMakeFiles/cmake.verify_globs	f21c44a55d10b738
-6	27	0	CMakeFiles/install.util	e719cc15681c71bd
+0	2790	1576202338	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o	4c95f05500de8c88
+2811	3354	1576202338	CMakeFiles/AcfTest.dir/src/AcfTest.cpp.o	9a20f85044266d59
+5	3434	1576202338	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o	55b1c5dc7f7995f5
+2	4179	1576202339	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o	1f30590f46dc7e7e
+3	4347	1576202339	CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o	84f855d671828e91
+3434	5676	1576202340	CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o	d8638142c450c21c
+3354	5765	1576202341	CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o	862e314e74ef248d
+5766	6180	1576202341	AcfTest	5ae5243693da16b5
+11	28	0	CMakeFiles/install.util	b43cc42e76b8367e

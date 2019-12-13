@@ -1,43 +1,43 @@
 [
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponent.meta.cpp",
-  "file": "/home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponent.meta.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponent.meta.cpp.o -c /home/chijiang/projects/ArfTest/intermediate/code/AcfTestComponent.meta.cpp",
+  "file": "/home/chijiang/projects/ArfTest/intermediate/code/AcfTestComponent.meta.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponentProgramProvider.cpp",
-  "file": "/home/chijiang/projects/AcfTest/intermediate/code/AcfTestComponentProgramProvider.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestComponentProgramProvider.cpp.o -c /home/chijiang/projects/ArfTest/intermediate/code/AcfTestComponentProgramProvider.cpp",
+  "file": "/home/chijiang/projects/ArfTest/intermediate/code/AcfTestComponentProgramProvider.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.cpp",
-  "file": "/home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.cpp.o -c /home/chijiang/projects/ArfTest/intermediate/code/AcfTestLibrary.cpp",
+  "file": "/home/chijiang/projects/ArfTest/intermediate/code/AcfTestLibrary.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o -c /home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.meta.cpp",
-  "file": "/home/chijiang/projects/AcfTest/intermediate/code/AcfTestLibrary.meta.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/intermediate/code/AcfTestLibrary.meta.cpp.o -c /home/chijiang/projects/ArfTest/intermediate/code/AcfTestLibrary.meta.cpp",
+  "file": "/home/chijiang/projects/ArfTest/intermediate/code/AcfTestLibrary.meta.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o -c /home/chijiang/projects/AcfTest/src/AcfTestComponent.cpp",
-  "file": "/home/chijiang/projects/AcfTest/src/AcfTestComponent.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/AcfTest.cpp.o -c /home/chijiang/projects/ArfTest/src/AcfTest.cpp",
+  "file": "/home/chijiang/projects/ArfTest/src/AcfTest.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o -c /home/chijiang/projects/AcfTest/src/AcfTestProgram.cpp",
-  "file": "/home/chijiang/projects/AcfTest/src/AcfTestProgram.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/AcfTestComponent.cpp.o -c /home/chijiang/projects/ArfTest/src/AcfTestComponent.cpp",
+  "file": "/home/chijiang/projects/ArfTest/src/AcfTestComponent.cpp"
 },
 
 {
-  "directory": "/home/chijiang/projects/AcfTest/build/AXCF2152_20.0.0.24752",
-  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -DAcfTest_EXPORTS -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -fPIC   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/testprog.cpp.o -c /home/chijiang/projects/AcfTest/src/testprog.cpp",
-  "file": "/home/chijiang/projects/AcfTest/src/testprog.cpp"
+  "directory": "/home/chijiang/projects/ArfTest/build/AXCF2152_20.0.0.24752",
+  "command": "/opt/pxc/sdk/AXCF2152/2020.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi  -DARP_DEVICE_AXCF2152 -I../../intermediate/code -I../../src -I/opt/pxc/sdk/AXCF2152/2020.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG   -fno-gnu-unique -o CMakeFiles/AcfTest.dir/src/AcfTestProgram.cpp.o -c /home/chijiang/projects/ArfTest/src/AcfTestProgram.cpp",
+  "file": "/home/chijiang/projects/ArfTest/src/AcfTestProgram.cpp"
 }
 ]

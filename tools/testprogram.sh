@@ -5,7 +5,7 @@
 VERSION="V1.0"
 
 #// Set the file name
-FileName="testprog"
+FileName="AcfTest"
 
 
 

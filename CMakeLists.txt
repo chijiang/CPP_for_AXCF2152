@@ -1,5 +1,7 @@
 ﻿cmake_minimum_required(VERSION 3.13)
 
+set(Project_Name "AcfTest")
+
 project(AcfTest)
 
 if(NOT CMAKE_BUILD_TYPE)
@@ -11,9 +13,9 @@ endif()
 set (WILDCARD_SOURCE *.cpp)
 set (WILDCARD_HEADER *.h *.hpp *.hxx)
 
-file(GLOB_RECURSE Headers CONFIGURE_DEPENDS src/${WILDCARD_HEADER} intermediate/code/${WILDCARD_HEADER})
-file(GLOB_RECURSE Sources CONFIGURE_DEPENDS src/${WILDCARD_SOURCE} intermediate/code/${WILDCARD_SOURCE})
-add_library(AcfTest SHARED ${Headers} ${Sources})
+file(GLOB_RECURSE Headers src/${WILDCARD_HEADER} inc/${WILDCARD_HEADER} intermediate/code/${WILDCARD_HEADER})
+file(GLOB_RECURSE Sources src/${WILDCARD_SOURCE} intermediate/code/${WILDCARD_SOURCE})
+add_executable(${Project_Name} ${Headers} ${Sources})
 
 #######################################################################################
 
@@ -47,7 +49,9 @@ target_link_options(AcfTest PRIVATE LINKER:--no-undefined)
 find_package(ArpDevice REQUIRED)
 find_package(ArpProgramming REQUIRED)
 
-target_link_libraries(AcfTest PRIVATE ArpDevice ArpProgramming)
+target_link_libraries(${Project_Name} PRIVATE ArpDevice ArpProgramming
+                      Arp.System.ModuleLib Arp.System.Module
+                      Arp.Plc.AnsiC Arp.System.Lm.Services)
 
 #######################################################################################
 
